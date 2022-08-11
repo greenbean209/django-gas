@@ -55,7 +55,7 @@ ROOT_URLCONF = 'gasprices.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['gasprices/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
