@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-p03ys^o5)sg@bw+2=n+z%8$&v&voh$ip7y&k6(m-(+p5e2e5&1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.52.160.54']
+ALLOWED_HOSTS = ['10.52.160.54', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'gasapi',
 ]
 
 MIDDLEWARE = [
